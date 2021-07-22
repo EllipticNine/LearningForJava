@@ -148,3 +148,24 @@ Scanner input = new Scanner(sourceF);
 实例化对象即可打开或创建文件或目录。
 
 不论是否存在，都会在实例化过程中创建该文件或该目录。
+
+
+
+## 四、命令行（cmd）运行Java程序
+
+执行命令：
+
+` javac classname.java`
+
+` java classname one two`
+
+`args = [one, two] (String[]);`
+
+args数组长度为 one, two的个数。
+
+执行命令时，需要在上层目录进行，且命令包含文件的包名。
+
+​	如：
+
+` java packagename.classname /package/three.java;`
+
