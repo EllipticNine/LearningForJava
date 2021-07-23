@@ -450,3 +450,15 @@ Scanner useDelimeter(String pattern); //更改分隔符，返回该Scanner
 
 ### URL类
 
+## 十、抽象类和接口
+
+### 1、Number
+
+#### Define
+
+此类是Double, Float, Long, Integer, Short, Byte, BigInteger, BigDecimal类的抽象父类。
+
+
+
+
+
